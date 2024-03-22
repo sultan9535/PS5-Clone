@@ -1,0 +1,924 @@
+.main{
+    margin: 3px;
+}
+.sony{
+    background-color: black;
+    height: 28px;
+    text-align: right;
+}
+#sony1{
+    text-decoration: none;
+    color: white;
+    top: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.nav{
+    top: 0px;
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+}
+.btn-group:hover{
+   color: blue;
+}
+#dropdown{
+    display: flex;
+   }
+   #drop1{
+    margin-left: 100px;
+   }
+   #games{
+    padding: 10px 20px;
+    justify-content: center;
+   }
+   #games:hover{
+    box-shadow: 3px 3px 3px 3px rgb(216, 211, 211);
+    }
+    #seperate-link{
+        text-align: center;
+    }
+    #seperate{
+       text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        padding: 10px 30px;
+    }
+    #seperate:hover{
+        color: blue;
+    }
+#signin{
+    margin-left: 300px;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: rgb(67, 82, 214);
+    color: white;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+}
+#signin:hover{
+    background-color: blue;
+    color: black;
+}
+#search{
+    margin-left: 40px;
+}
+#search:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+.cards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+/*.card1{
+    display: inline-block;
+}
+
+#card2{
+    display: inline-block;
+}
+#card3{
+    display: inline-block;
+}
+#card4{
+    display: inline-block;
+}
+#card5{
+    display: inline-block;
+}*/
+#img1{
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 3px;
+    display: inline-block;
+    padding: 5px;
+}
+#img1:hover{
+    transform: translateY(-5%);
+    transition: 0.2s;
+    box-shadow: 20px 10px 30px black;
+    border: 2px solid #0070cc;
+}
+
+.bgpic1{
+    position: relative;
+    margin-top: 20px;
+}
+
+#findout1{
+    position: absolute;
+    margin-left: 50px;
+    top: 451px;
+    margin-left: 105px;
+    color: black;
+    line-height: 20px;
+    font-family: "Dosis", sans-serif;
+    padding: 11px 20px;
+    background-color: rgb(30, 63, 153);
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}
+#findout1:hover{
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.bgpic1{
+    display: none;
+}
+.bgpic1:target{
+display: block;
+}
+
+.bgpic2{
+    position: relative;
+    margin-top: 20px;
+}
+
+#findout2{
+    position: absolute;
+    margin-left: 50px;
+    top: 436px;
+    margin-left: 100px;
+    color: black;
+    line-height: 20px;
+    font-family: "Dosis", sans-serif;
+    padding: 11px 20px;
+    background-color: rgb(30, 63, 153);
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}
+#findout2:hover{
+    box-shadow: 3px 3px 3px 3px black;
+}
+.bgpic2{
+display: none;
+}
+.bgpic2:target{
+display: block;
+
+}
+
+.bgpic3{
+    position: relative;
+    margin-top: 20px;
+}
+
+#findout3{
+    position: absolute;
+    margin-left: 50px;
+    top: 465px;
+    margin-left: 100px;
+    color: black;
+    line-height: 20px;
+    font-family: "Dosis", sans-serif;
+    padding: 11px 20px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}
+#findout3:hover{
+    box-shadow: 2px 2px 2px 2px red;
+}
+.bgpic3{
+display: none;
+}
+.bgpic3:target{
+display: block;
+}
+
+.bgpic4{
+    position: relative;
+    margin-top: 20px;
+}
+
+#findout4{
+    position: absolute;
+    margin-left: 50px;
+    top: 436px;
+    margin-left: 100px;
+    color: black;
+    line-height: 20px;
+    font-family: "Dosis", sans-serif;
+    padding: 11px 20px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}
+#findout4:hover{
+    box-shadow: 2px 2px 2px 2px red;
+}
+.bgpic4{
+display: none;
+}
+.bgpic4:target{
+display: block;
+}
+
+.bgpic5{
+    position: relative;
+    margin-top: 20px;
+}
+
+#findout5{
+    position: absolute;
+    margin-left: 50px;
+    top: 456px;
+    margin-left: 100px;
+    color: white;
+    line-height: 20px;
+    font-family: "Dosis", sans-serif;
+    padding: 11px 20px;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 30px;
+}
+#findout5:hover{
+    box-shadow: 2px 2px 2px 2px white;
+}
+.bgpic5{
+display: none;
+}
+.bgpic5:target{
+display: block;
+}
+.products{
+margin-top: 10px;
+}
+.fom1{
+position: absolute;
+}
+.console{
+position: relative;
+}
+.fom-a{
+position: absolute;
+top: 470px;
+margin-left: 50px;
+}
+.fom-b{
+position: absolute;
+top: 490px;
+margin-left: 50px;
+}
+#fom1{
+text-decoration: none;
+padding: 10px 20px;
+color: white;
+background-color: #0070cc;
+border-radius: 30px;
+font-family: Arial, sans-serif;
+}
+#fom1:hover{
+box-shadow: 2px 3px black;
+}
+.controller,.headset,.earbuds,.edge,.access,.covers,.remote,.camera{
+position: relative;
+}
+.pc-1{
+display: inline-block;
+padding: 5px 10px;
+}
+#pc-a{
+height: 100px;
+width: 150px;
+border-radius: 20px;
+box-shadow: 2px 2px 2px 2px rgb(175, 167, 167);
+
+}
+#pc-a:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.console{
+    display: none;
+    
+}
+.console:target{
+    display:inline-block;
+    position: relative;
+}
+.controller{
+    display: none;
+}
+.controller:target{
+    display: block;
+}
+.headset{
+    display: none;
+}
+.headset:target{
+    display: block;
+}
+.earbuds{
+    display: none;
+}
+.earbuds:target{
+    display: block;
+}
+.edge{
+    display: none;
+}
+.edge:target{
+    display: block;
+}
+.access{
+    display: none;
+}
+.access:target{
+    display: block;
+}
+.covers{
+    display: none;
+}
+.covers:target{
+    display: block;
+}
+.remote{
+    display: none;
+}
+.remote:target{
+    display: block;
+}
+.camera{
+    display: none;
+}
+.camera:target{
+    display: block;
+}
+#product-name{
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.black{
+    margin-top: 20px;
+    background-color: black;
+    height: 700px;
+    width: 100%;
+}
+#matter1{
+    text-align: center;
+    font-family: Arial,sans-serif;
+    color: white;
+    padding-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    
+}
+.pagebuttons{
+    margin-top: 30px;
+    text-align: center;
+}
+#page1{
+padding: 10px 15px;
+border-radius: 30px;
+text-decoration: none;
+font-weight: bold;
+font-family: Arial, sans-serif;
+background-color: rgb(27, 26, 26);
+color: white;
+transform: scale(1.1);
+}
+#page1:hover{
+background-color: white;
+color: black;
+transform: scale(1.05);
+}
+#page2{
+padding: 10px 15px;
+border-radius: 30px;
+text-decoration: none;
+font-weight: bold;
+font-family: Arial, sans-serif;
+background-color: rgb(27, 26, 26);
+color: white;
+transform: scale(1.1);
+margin-left: 10px;
+}
+#page2:hover{
+background-color: white;
+color: black;
+}
+.rowa{
+display: flex;
+justify-content: space-around;
+}
+.rowb{
+display: flex;
+justify-content: space-around;
+}
+#card1-a{
+position: relative;
+}
+#card1-a:hover{
+transform: scale(1.03);
+transition: 0.5s;
+}
+#img-aa{
+position: absolute;
+bottom: 50px;
+margin-left: 20px;
+}
+#img-a{
+width: 200px;
+height: 200px;
+border-radius: 20px;
+margin-left: 10px;
+}
+#full-logo{
+border-radius: 3px;
+height: 20px;
+width: 80px;
+}
+#half-logo{
+border-radius: 3px;
+height: 10px;
+width: 40px;
+}
+#game-name{
+font-family: Arial, sans-serif;
+text-align: center;
+color: white;
+font-size: 12px;
+}
+.firstpage{
+display: none;
+margin-top: 50px;
+}
+.firstpage:target{
+display: block;
+}
+.secondpage{
+display: none;
+margin-top: 50px;
+}
+.secondpage:target{
+display: block;
+}
+.playstore{
+position: relative;
+}
+#playstore-bg-img{
+width: 100%;
+}
+.s-a-d{
+position: absolute;
+bottom: 120px;
+margin-left: 130px;
+}
+#s-a-d-1{
+text-decoration: none;
+padding: 10px 15px;
+background-color: #D53B00;
+color: white;
+font-weight: bold;
+font-family: Arial,sans-serif;
+border-radius: 30px;
+}
+#s-a-d-1:hover{
+box-shadow: 2px 3px 2px 2px black;
+}
+.storepic{
+position: absolute;
+top: 50px;
+margin-left: 500px;
+
+}
+#storepic1{
+height: 400px;
+width: 700px;
+border-radius: 20px;
+box-shadow: 2px 2px rgb(223, 217, 217);
+}
+#storepic1:hover{
+transform: scale(1.02);
+transition: 0.2s;
+}
+#playplus-bg{
+position: relative;
+}
+#playplus-bg-image{
+width: 100%;
+}
+#play-plus-button{
+position: absolute;
+margin-left: 500px;
+width: 300px;
+top: 20px;
+}
+#p-b-m-1{
+position: absolute;
+top: 80px;
+margin-left: 450px;
+font-size: 35px;
+font-family: Arial, sans-serif;
+}
+#p-b-m-2{
+position: absolute;
+top: 160px;
+margin-left: 100px;
+font-family: Arial, sans-serif;
+color: #6B6B6B;
+font-size: 15px;
+}
+.slides{
+position: absolute;
+top: 220px;
+margin-left: 150px;
+}
+#slides{
+border-radius: 10px;
+height: 300px;
+width: 400px;
+}
+.discover{
+position: absolute;
+bottom: 100px;
+margin-left: 550px;
+
+}
+#discover-button{
+text-decoration: none;
+padding: 10px;
+border-radius: 30px;
+background-color: #0070cc;
+color: white;
+font-family: Arial, sans-serif;
+font-weight: bold;
+}
+#discover-button:hover{
+border: 2px solid #0070cc;
+}
+.purple-bg{
+position: relative;
+}
+#purple-bg-image{
+width: 100%;
+height: 500px;
+}
+#purple-bg-matter{
+position: absolute;
+top: 40px;
+margin-left: 200px;
+}
+#purple-matter1{
+color: white;
+font-size: 40px;
+letter-spacing: 2px;
+font-family: Arial, sans-serif;
+}
+#purple-matter2{
+color: white;
+font-family: Arial,sans-serif;
+font-weight: bold;
+font-size: 50px;
+}
+#purple-matter3{
+color: rgb(189, 176, 176);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+letter-spacing: 1px;
+padding-bottom: 20px;
+}
+#p-f-o-m{
+text-decoration: none;
+padding: 10px 15px;
+background-color: white;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 30px;
+font-weight: bold;
+}
+#p-f-o-m:hover{
+box-shadow: 2px 2px 2px 2px black;
+}
+.purple-color{
+height: 300px;
+background-image: linear-gradient(#26254F,#26254F);
+}
+.purple-cards{
+position: relative;
+display: flex;
+justify-content: center;
+}
+#p-card1{
+padding: 20px;
+}
+#p-card2{
+padding: 20px;
+}
+#p-card3{
+padding: 20px;
+}
+#p-img{
+border-radius: 20px;
+box-shadow: 3px 2px 2px 3px black;
+}
+#p-img:hover{
+transform: scale(1.02);
+}
+#p-matter{
+color: white;
+font-size:20px;
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 10px;
+text-align: center;
+}
+.apparel-merchandise{
+ position: relative;
+}
+#girl-pic{
+width: 100%;
+opacity: 0.5;
+}
+.t-shirt{
+position: absolute;
+top: 50px;
+left: 200px;
+}
+#tshirt-pic{
+width: 70px;
+height: 70px;
+}
+.apparel-matter{
+position: absolute;
+top: 150px;
+left: 200px;
+}
+#apparel-matter1{
+font-size: 35px;
+font-family: Arial, sans-serif;
+letter-spacing: 1px;
+}
+#carouselExampleDark{
+position: absolute;
+bottom: 100px;
+left: 400px;
+width: 500px;
+height: 400px;
+
+}
+
+#hoddie{
+    padding: 30px;
+
+}
+#carousel-item{
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.shop{
+    position: absolute;
+    bottom: 70px;
+    left: 540px;
+}
+#shop-the-collection{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color:#00439C;
+    border-radius: 30px;
+    font-weight: bold;
+}
+#shop-the-collection:hover{
+    box-shadow: 2px 2px 2px 2px black;
+}
+.blogs{
+    background-color: white;
+    margin-bottom: 100px;
+}
+#blog-heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+   
+}
+/* Adjust carousel image size */
+.carousel-item img {
+    width: 50%;
+    height: 200px;
+    
+    box-shadow: 3px 3px 3px 3px gray;
+  }
+  .row1{
+      display: flex;
+      justify-content:space-around;
+  }
+  #blog1{
+      text-decoration: none;
+      color: black;
+  }
+  .card1{
+      border-radius: 20px;
+      box-shadow: 1px 1px 1px 1px gray;
+      width: 400px;
+      height: 450px;
+  }
+  .card1:hover{
+      box-shadow: 3px 3px 3px 3px gray;
+  }
+  #pic1{
+      width: 250px;
+      height: 200px;
+      border-radius: 20px;
+  }
+  #pic1:hover{
+      box-shadow: 5px 5px 5px 5px gray;
+  }
+  #blog-matter1{
+      margin-top: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      
+  }
+  #blog-matter2{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      text-align: center;
+      color: rgb(136, 132, 132);
+  }
+  
+ #blog-image{
+    padding-top: 10px;
+  width: 350px;
+  height: 200px;
+  margin-left: 25px;
+ }
+ .small-div{
+  display: flex;
+  margin-top: 40px;
+ }
+#blog-pic{
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+  border-radius: 3px;
+
+}
+
+.blog-names{
+  margin-left: 10px;
+}
+#x{
+  font-size: 10px;
+}
+.small-div1{
+  margin-top: 60px;
+  display: flex;
+}
+.footer{
+background-color: #cecdd2;
+height: 300px;
+width: 100%;
+}
+#fm1{
+text-align: center;
+font-family: Arial, sans-serif;
+font-size: 30px;
+padding-top: 50px;
+}
+.icons{
+text-align: center;
+}
+#icon1{
+width: 80px;
+height: 80px;
+padding: 10px;
+}
+#icon1:hover{
+transform: scale(1.05);
+transition: 0.2s;
+}
+.footer2{
+background-color: #00439C;
+width: 100%;
+height: 680px;
+}
+#pslogo{
+padding-top: 20px;
+}
+.footer-items{
+display: flex;
+justify-content: space-around;
+}
+#h3{
+color: white;
+font-family: Arial, sans-serif ;
+text-decoration: none ;
+font-size: 20px;
+padding-bottom: 10px;
+}
+#item1{
+color: white;
+font-family: Arial, sans-serif;
+text-decoration: none;
+letter-spacing: 0.5px;
+display: block;
+padding-bottom: 10px;
+font-family: Arial,sans-serif;
+font-size: 12px;
+}
+#item2{
+    padding-left: 10px;
+}
+#white-logo:hover{
+    transform: scale(1.09);
+}
+#item1:hover{
+    color: rgb(197, 181, 181);
+}
+#about{
+    padding: 20px;
+    display: inline-block;
+}
+#products{
+    padding: 20px;
+    display: inline-block;
+}
+#values{
+    padding: 20px;
+    display: inline-block;
+}
+#support{
+    padding: 20px;
+    display: inline-block;
+}
+#resources{
+    padding: 20px;
+    display: inline-block;
+}
+#connect{
+    padding: 20px;
+    display: inline-block;
+}
+#sonylogo{
+    height: 110px;
+    width: 250px;
+    padding: 20px;
+   
+}
+#sonylogo-matter{
+    color: white;
+    margin-left: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+#moreinfo{
+    color: white;
+    padding-left: 5px;
+}
+.footer-last{
+    margin-top: 20px;
+}
+#india{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#globe{
+    margin-left: 30px;
+}
+#greaterthan{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    padding-right: 450px;
+}
+#privacy-policy{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+#privacy-policy:hover{
+    color: rgb(201, 191, 191);
+}
+#line{
+    color:white;
+    padding: 5px;
+}
